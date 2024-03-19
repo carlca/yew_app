@@ -1,0 +1,14 @@
+<!DOCTYPE html><html><head>
+    <meta charset="utf-8">
+    <title>Yew App</title>
+
+<link rel="preload" href="/yew_app-3ee0802f6a76885b_bg.wasm" as="fetch" type="application/wasm" crossorigin="anonymous" integrity="sha384-LFKb9Zx3n_H79n2y1L0yBfhkR2A3pdhPd8SoEC2XtPWnFbcSsCfTvJOepHEooPyy">
+<link rel="modulepreload" href="/yew_app-3ee0802f6a76885b.js" crossorigin="anonymous" integrity="sha384-tQJ7AJu8chRaG5TolZJqhs2Cz61fXvY-1PUbQyQ0a8Iw5S8sdAJUm4cnAPkYMCly"></head>
+<body>
+
+<script type="module">
+import init, * as bindings from '/yew_app-3ee0802f6a76885b.js';
+init('/yew_app-3ee0802f6a76885b_bg.wasm');
+window.wasmBindings = bindings;
+
+</script></body></html>
